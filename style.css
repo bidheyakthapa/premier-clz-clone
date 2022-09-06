@@ -2,14 +2,11 @@ header{
   display: flex;
   padding: 14px 80px;
   justify-content: space-between;
-  margin-top: 25px;
   align-items: center;
   box-shadow: 1px 1px 20px 1px #e2dfdf;
-  margin: 0px;
 }
 .nav-list{
   display: flex;
-  
 }
 .nav-item{
   padding: 10px 20px;
@@ -24,17 +21,16 @@ header{
  
 }
 .nav-item a:hover{
-  color: #8b06ac;
+  color: #782b90;
 }
 .nav-item a:after{
-content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #8b06ac;
+  background-color: #782b90;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;}
  .nav-item a:hover:after {
@@ -50,9 +46,38 @@ content: '';
   }
   .txt{
     margin-top: 100px;
-    padding: 25px;
+    padding: 30px;
   }
   .class{
     color: #92278f;
   }
-  
+  .btn{
+    color: #ffffff;
+    padding: 10px;
+    background-color: #782b90;
+    border: none;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background-color: #000000;
+  }
+  .welcome{
+    display: flex;
+    padding: 100px;
+    background-color: #f1f3f4;
+    margin-top: 25px;
+  }
+  .welcome-about{
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  .welcome-discription{
+    color: #4d4d4d;
+    padding-bottom: 20px;
+    line-height: 27px;
+    font-size: 20px;
+  }
+  .prog{
+    display: flex;
+  }
